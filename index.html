@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">&lt;DevDash/&gt;</div>
+        <nav class="navigation">
+            <ul class="navbar">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Challenges</a></li>
+                <li><a href="#">Tools</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome back, developer</h1>
+                <p class="hero-tagline">Code. Debug. Ship.</p>
+                <p class="hero-text">
+                    Every bug you fix is sharpening the engineer you will become.
+                </p>
+                <button class="btn">Start coding</button>
+            </div>
+        </section>
+
+        <section class="profile">
+            <h2>Developer profile</h2>
+            <div class="profileInfo">
+                <div class="profileImg">
+                    <img src="image/profile.png" alt="Profile picture of Kaizen, the developer">
+                </div>
+                <h3 class="profile-name">Kaizen.dev</h3>
+                <p class="rank">Rank: <span>Senior Debugger</span></p>
+                <p class="level">Level: <span id="levelValue">12</span></p>
+                <p class="xp">XP: <span id="xpValue">750 / 1000</span></p>
+            </div>
+        </section>
+
+        <section class="mission">
+            <h2>Challenges</h2>
+            <div class="mission-list">
+                <article class="mission-card">
+                    <h3>Challenge 01</h3>
+                    <h4>First Commit</h4>
+                    <p>Push your first line of code to the repository.</p>
+                    <p class="reward">Reward: 100 XP</p>
+                    <button class="mission-btn" data-xp="100">Start Challenge</button>
+                </article>
+                <article class="mission-card">
+                    <h3>Challenge 02</h3>
+                    <h4>Clean Code</h4>
+                    <p>Refactor a function and pass all test cases.</p>
+                    <p class="reward">Reward: 250 XP</p>
+                    <button class="mission-btn" data-xp="250">Start Challenge</button>
+                </article>
+                <article class="mission-card">
+                    <h3>Challenge 03</h3>
+                    <h4>Bug Hunt</h4>
+                    <p>Find and fix three bugs in the codebase.</p>
+                    <p class="reward">Reward: 300 XP</p>
+                    <button class="mission-btn" data-xp="300">Start Challenge</button>
+                </article>
+                <article class="mission-card">
+                    <h3>Challenge 04</h3>
+                    <h4>Ship It</h4>
+                    <p>Deploy your project to production.</p>
+                    <p class="reward">Reward: 500 XP</p>
+                    <button class="mission-btn" data-xp="500">Start Challenge</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="inventory">
+            <h2>Tech stack</h2>
+            <ul class="inventory-list">
+                <li>
+                    <span class="item-name">Laptop</span>
+                    <p>Your daily driver for shipping code.</p>
+                </li>
+                <li>
+                    <span class="item-name">IDE</span>
+                    <p>Where the real battles are fought.</p>
+                </li>
+                <li>
+                    <span class="item-name">Git</span>
+                    <p>Keeps every version of your history safe.</p>
+                </li>
+                <li>
+                    <span class="item-name">Coffee</span>
+                    <p>Fuel for late-night debugging sessions.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="stats">
+            <h2>Developer stats</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Logic</th>
+                        <th scope="col">Speed</th>
+                        <th scope="col">Debugging</th>
+                        <th scope="col">Creativity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>85</td>
+                        <td>72</td>
+                        <td>90</td>
+                        <td>100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Code Dashboard. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
